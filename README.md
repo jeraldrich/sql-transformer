@@ -1,4 +1,4 @@
-# Setup
+# Transform list of json files into postgresql models using python multiprocessing
 
 - python3 -m venv venv
 - source venv/bin/activate
