@@ -1,0 +1,1 @@
+from producers.message_parser import JsonMessageParser
