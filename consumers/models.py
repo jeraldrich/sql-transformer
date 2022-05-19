@@ -151,7 +151,7 @@ class Message(Base):
     viewed_duration = Column('viewed_duration', Integer, nullable=False, default=0)
 
     # Did not find an example, but may use json here instead.
-    urls = Column('urls', String, nullable=False, default='')
+    urls = Column('urls', String(255), nullable=False, default='')
 
     duration = Column('duration', Integer, nullable=False, default=0)
     paused_at = Column('paused_at', DateTime, nullable=True)
