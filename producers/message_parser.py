@@ -11,7 +11,7 @@ class JsonMessageParser():
 
     def parse(self, json_message):
         """
-        parse each json message and match against table to insert into based off patterns
+        parse each json message based off message type
         """
         message = None
 
