@@ -1,4 +1,4 @@
-# Transform list of json files into postgresql models using python multiprocessing
+# Transform list of json files into analytic friendly sql models using multiprocessing, sqlalchemy and postgres
 
 - python3 -m venv venv
 - source venv/bin/activate
